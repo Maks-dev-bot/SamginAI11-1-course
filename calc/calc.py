@@ -42,9 +42,6 @@ while True:
         else:
             print("Выход из операции")
         print(result)
-        
-print('hello')
-        
   
     
             
