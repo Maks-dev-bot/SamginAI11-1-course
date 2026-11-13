@@ -1,0 +1,50 @@
+print("Вас приветствует игровой калькулятор")
+print("Операции:")
+print("1-сложение")
+print("2-вычитание")
+print("3-умножение")
+print("4-деление")
+print("5-возведение в степень")
+print("6-остаток от деления")
+print("7-целочисленное деление")
+print("8-подсчет урона")
+print("9-подсчет усиления характеристик")
+print("10-подсчет игровых ресурсов")
+print("0-выход из программы")
+while True:
+    operation = input('Выберите операцию:1-7: ')
+    if operation in ['1','2','3','4','5','6','7']:
+        num1 = int(input('Введите число №1: '))
+        num2 = int(input('Введите число №2: '))
+        if operation == "1":
+            result = num1 + num2
+        elif operation == "2":
+            result = num1 - num2
+        elif operation == "3":
+            result = num1 * num2
+        elif operation == "4":
+            if num2 != 0:
+                result = num1 / num2
+            else:
+                print("Деление на ноль невозможно")
+        elif operation == "5":
+            result = num1 ** num2
+        elif operation == "6":
+            if num2 != 0:
+                result = num1 % num2
+            else:
+                print("Деление на ноль невозможно")
+        elif operation == "7":
+            if num2 != 0:
+                result = num1 // num2
+            else:
+                print("Деление на ноль невозможно")
+        else:
+            print("Выход из операции")
+        print(result)
+        
+
+        
+  
+    
+            
