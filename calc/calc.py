@@ -43,7 +43,7 @@ while True:
             print("Выход из операции")
         print(result)
         
-
+print('hello')
         
   
     
